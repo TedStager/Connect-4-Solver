@@ -5,8 +5,6 @@
 #include <iomanip>
 using namespace std;
 
-// ===============POSITION CLASS===============
-
 // trivial 2^n function to make defining things easier
 unsigned long long pow2(int n)
 {
@@ -43,7 +41,6 @@ Position::Position ()
 }
 
 // "copy" constructor function, makes a new Position identical to the last
-// reason will become apparent
 Position::Position (const Position &P)
 {
 	player = P.player;
