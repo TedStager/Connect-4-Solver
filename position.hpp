@@ -8,14 +8,14 @@
 	note our board will be arranged with the bits as follows (starting from 0), using 
 	this format to store the player tokens
 	
-row:	 6 | 35 36 37 38 39 40 41
+row:     6 | 35 36 37 38 39 40 41
 		 5 | 28 29 30 31 32 33 34
 		 4 | 21 22 23 24 25 26 27
 		 3 | 14 15 16 17 18 19 20
 		 2 |  7  8  9 10 11 12 13
 		 1 |  0  1  2  3  4  5  6
 		   -----------------------
-col:	      1  2  3  4  5  6  7
+col:          1  2  3  4  5  6  7
 
 	then the data storing all the tokens will be arranged as follows: (not yet, but potentially)
 
@@ -23,7 +23,7 @@ col:	      1  2  3  4  5  6  7
 	   43 46 49 52 55 58 61
 	   42 45 48 51 54 57 60
 	   --------------------
-col:	1  2  3  4  5  6  7
+col:    1  2  3  4  5  6  7
 
 	including a bit is the same as adding 2^n to the total board sum
 */
