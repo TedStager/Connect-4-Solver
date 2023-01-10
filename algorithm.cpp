@@ -184,6 +184,8 @@ int optimalMove (const Position &P, TranspositionTable &tTable)
 		}
 	}
 
+	cout << "Scores of columns: " << endl;
+
 	for (int x = 0; x < 7; x++)
 		cout << colScores[x] << " ";
 	cout << endl;
